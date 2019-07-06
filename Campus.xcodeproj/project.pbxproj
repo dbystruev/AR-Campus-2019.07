@@ -12,6 +12,7 @@
 		69500BBF22D11D390017E4F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69500BBD22D11D390017E4F0 /* Main.storyboard */; };
 		69500BC122D11D420017E4F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69500BC022D11D420017E4F0 /* Assets.xcassets */; };
 		69500BC422D11D420017E4F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69500BC222D11D420017E4F0 /* LaunchScreen.storyboard */; };
+		69500BCC22D120EE0017E4F0 /* Campus.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 69500BCB22D120EE0017E4F0 /* Campus.scnassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		69500BC022D11D420017E4F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		69500BC322D11D420017E4F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		69500BC522D11D420017E4F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69500BCB22D120EE0017E4F0 /* Campus.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = Campus.scnassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,11 +59,20 @@
 				69500BB922D11D390017E4F0 /* AppDelegate.swift */,
 				69500BBB22D11D390017E4F0 /* ViewController.swift */,
 				69500BBD22D11D390017E4F0 /* Main.storyboard */,
-				69500BC022D11D420017E4F0 /* Assets.xcassets */,
+				69500BCD22D121100017E4F0 /* Resources */,
 				69500BC222D11D420017E4F0 /* LaunchScreen.storyboard */,
 				69500BC522D11D420017E4F0 /* Info.plist */,
 			);
 			path = Campus;
+			sourceTree = "<group>";
+		};
+		69500BCD22D121100017E4F0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				69500BC022D11D420017E4F0 /* Assets.xcassets */,
+				69500BCB22D120EE0017E4F0 /* Campus.scnassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +135,7 @@
 			files = (
 				69500BC422D11D420017E4F0 /* LaunchScreen.storyboard in Resources */,
 				69500BC122D11D420017E4F0 /* Assets.xcassets in Resources */,
+				69500BCC22D120EE0017E4F0 /* Campus.scnassets in Resources */,
 				69500BBF22D11D390017E4F0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
